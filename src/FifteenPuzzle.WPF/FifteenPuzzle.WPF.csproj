@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>FifteenPuzzle.WPF</AssemblyName>
+    <RootNamespace>FifteenPuzzle.WPF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.142" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LevelGenerator\LevelGenerator.csproj" />
+  </ItemGroup>
+
+</Project>
